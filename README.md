@@ -1,6 +1,6 @@
-# real_estate_portal
+# Real Estate Portal
 
-A new Flutter Web project for a real estate business.
+A new Flutter web project for a real estate business in Dubai.
 
 ## Getting Started
 
