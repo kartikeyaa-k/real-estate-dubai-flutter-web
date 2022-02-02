@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99635509749",
+    "project_id": "adure-project",
+    "storage_bucket": "adure-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99635509749:android:2615f50687b2bc88f348bc",
+        "android_client_info": {
+          "package_name": "com.example.real_estate_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99635509749-9b4kv4pguv478bim02h3f5lgmpjhko5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwUM4oETOhxNJcqfPfZNOUKdwEHbhbFrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99635509749-9b4kv4pguv478bim02h3f5lgmpjhko5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

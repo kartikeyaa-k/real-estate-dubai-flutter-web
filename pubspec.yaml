@@ -1,0 +1,116 @@
+name: real_estate_portal
+description: A Real estate e-commerce portal.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  another_xlider: ^1.0.0
+  auto_size_text: 3.0.0-nullsafety.0
+  bloc: ^8.0.1
+  built_collection: ^5.0.0
+  built_value: ^8.0.5
+  built_value_generator: ^8.0.5
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.3
+  cupertino_stepper: ^0.2.1
+  dartz: ^0.10.0
+  dio: ^4.0.0
+  dio_cookie_manager: ^2.0.0
+  easy_text_field:
+    path: packages/easy_text_field
+  equatable: ^2.0.3
+  firebase_auth: ^3.1.2
+  firebase_authentication_repository:
+    path: packages/firebase_authentication_repository
+  firebase_core: ^1.7.0
+  floor_generator: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  flutter_breadcrumb: ^1.0.1
+  flutter_calendar_carousel: ^2.0.3
+  flutter_feather_icons: ^2.0.0+1
+  flutter_localizations:
+    sdk: flutter
+  flutter_multi_formatter: ^2.4.1
+  flutter_portal: ^0.4.0
+  flutter_rating_bar: ^4.0.0
+  flutter_screenutil: ^5.0.0+2
+  flutter_spinkit: ^5.1.0
+  flutter_staggered_animations: ^1.0.0
+  flutter_staggered_grid_view: ^0.4.1
+  flutter_svg: ^0.22.0
+  fluttertoast: ^8.0.8
+  form_inputs:
+    path: packages/form_inputs
+  formz: ^0.4.0
+  get_it: ^7.2.0
+  google_maps_flutter: ^2.0.11
+  google_maps_flutter_web: ^0.3.2
+  google_sign_in: ^5.1.1
+  hovering: ^1.0.4
+  intl: ^0.17.0
+  intl_phone_number_input: ^0.7.0+2
+  multi_select_flutter: ^4.0.0
+  pagination_indicator:
+    path: packages/pagination_indicator
+  provider: ^6.0.1
+  rxdart: ^0.27.2
+  scrolling_page_indicator:
+    path: packages/scrolling_page_indicator
+  share_plus: ^3.0.4
+  shared_preferences: ^2.0.7
+  shimmer: ^2.0.0
+  skeleton_text: ^3.0.0
+  syncfusion_flutter_datepicker: ^19.2.60
+  textfield_tags:
+    git:
+      url: git://github.com/dewbambs/textfield_tags.git
+  transparent_image: ^2.0.0
+  url_launcher: ^6.0.12
+  url_strategy: ^0.2.0
+  video_player: ^2.2.5
+  vrouter: ^1.2.0+14
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/app/
+    - assets/icon/
+    - assets/temp/
+    - assets/timeslot/
+    - assets/service/
+    - assets/property_owner/
+    - assets/about/
+    - assets/cover/
+    - assets/gifs/
+    - assets/services_new/
+    - assets/lang/ar.json
+    - assets/lang/en.json
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto-Italic.ttf
+          style: italic
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+flutter_intl:
+  enabled: true
